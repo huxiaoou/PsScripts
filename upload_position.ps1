@@ -1,6 +1,3 @@
-$currentTime = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
-$currentTime | Out-File -FilePath D:\PsScripts\test.log -Append
-
 Set-Location E:\Projects\DataManagerTushare\
 $bgn_date = Get-Date -Format "yyyyMMdd"
 $tyear = Get-Date -Format "yyyy"
