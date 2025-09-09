@@ -1,11 +1,7 @@
-# Encoding = GB18030
-# Encoding = GB18030
-# Encoding = GB18030
-
 $td = Read-Host -Prompt "Please input the trade_date for position file, format = [YYYYMMDD]"
 $ty = $td.Substring(0, 4)
 $tm = $td.Substring(4, 2)
-$src_path = "E:\Data\Projects\Deploy-Operation\positions-real\$ty\$tm\≥÷≤÷ª„◊‹-$td.xls"
+$src_path = "E:\Data\Projects\Deploy-Operation\positions-real\$ty\$tm\ÊåÅ‰ªìÊ±áÊÄª-$td.xls"
 $dst_path = "lianghua:E:\Data\huxo\Projects\Deploy-Operation\positions\$ty\$tm\"
 
 Write-Host "[INF] Src path " -NoNewline
