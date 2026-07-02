@@ -3,8 +3,8 @@ param (
     [string]$match
 )
 
-if ($td -eq "") { 
-    $td = Get-Date -Format yyyyMMdd 
+if ($td -eq "") {
+    $td = Get-Date -Format yyyyMMdd
 }
 $ty = $td.Substring(0, 4)
 $tm = $td.Substring(4, 2)
